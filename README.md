@@ -2,22 +2,22 @@
 
 ## Contents
 
-Contents.........0
-Introduction	4
-Challenges	4
-The structures	4
-Pioneer control	5
-Representation of the Netizens	5
-Limitations of token-based voting	5
-Goals	5
-Success Metrics (2024)	5
-Assumptions and dependencies	6
-Dependencies	6
-User Stories	6
-Requirements	7
-UX Mocks	7
-Questions	7
-Out of Scope	7
+### Contents.......................................0
+### Introduction...................................4
+#### Challenges....................................4
+#### The structures................................4
+#### Pioneer control...............................5
+#### Representation of the Netizens................5
+#### Limitations of token-based voting.............5
+#### Goals.........................................5
+#### Success Metrics (2024)........................5
+#### Assumptions and dependencies..................6
+##### Dependencies.................................6
+### User Stories...................................6
+### Requirements...................................7
+### UX Mocks.......................................7
+### Questions......................................7
+### Out of Scope...................................7
 Top-level DAO	8
 Strategy	10
 Finance and budgeting	12
