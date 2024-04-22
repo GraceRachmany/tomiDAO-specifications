@@ -1,6 +1,6 @@
-# tomiDAO specifications: DAO Requirements for tDNS release
+# H1 tomiDAO specifications: DAO Requirements for tDNS release
 
-<heading>Contents</heading>
+## H2 Contents
 
 Contents.........0
 Introduction	4
