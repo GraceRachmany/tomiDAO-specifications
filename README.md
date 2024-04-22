@@ -672,6 +672,568 @@ The tomiDAO will have a top-level DAO Credentialing Guild responsible for:
 * Making requests for changes to the term and size of the guild (self-governance). Proposals for changes will go to the meta-Governance DAO or to the full DAO for a referendum. (Depending on the maturity of the DAO at the time of decision.)
 * Determining the costs and income model for issuance of DAO VCs. The credentialing services can be used by DAOs within tomi or those who are using it independently. This service has the potential to generate income for tomi. 
 
+Credential issuing for top-level credentials:
+* At least 2 members of the guild must approve the issuance of VCs.
+* The guild may retract VCs within 7 days with a majority of 5/7.
+* The guild may expel any member with a majority of 5/6 of the other members. Grounds for expulsion include violation of community guidelines, false issuance of credentials, and failure to do the fair share of work.
+* If there are disputes among members, the guild applies for conflict resolution to the conflict resolution team. The conflict resolution team should try to resolve the conflict in conversation. If that is not possible, the conflict resolution team may recommend expulsion of a guild member, or a re-election of all members if it is clear that the guild is no longer functioning well.
+
+Compensation for the credentialing guild: 
+* The initial commitment is projected 3-5 hours/week.
+* Initial compensation will be the equivalent of $1000/month in $TOMI tokens.
+* After a 6 month trial period, the credentialing guild will report on its actual time spent and the work done, and suggest an appropriate ongoing payment.
+
+Creation of a guild
+Additional certification Guilds can be created in one of two ways:
+* The DAO can declare the need for a guild and either nominate initial members or run an election.
+* A guild can self-declare and apply for approval from the top-level credentialing guild.
+
+Guilds are responsible for:
+* Issuance of approved VCs.
+* Their own integrity and self-governance. They may or may not choose to change members, have general elections, etc.
+* Maintaining their reputation. If a guild is not performing, they may lose their approval as an official tomiDAO issuer of VCs.
+* Suggesting members of their guild for election to the top-level guild when elections come around.
+* Guilds can also operate “unofficially”. If a guild wants to use the tomiDAO VC issuance system, they can do so. The Top-level Credentialing Guild may charge a fee for the service.
+
+Certificate definition for guilds
+Guilds can define the following parameters for their Verifiable Credentials:
+* Name
+* Description
+* Image / artwork
+* (optional) Up to 8 attributes
+* Quality rating for each attribute (1-10)
+  
+Guilds can create simplified VCs that don’t have quality ratings. For example, they can create certificates of participation, awards for accomplishment, etc. 
+
+** INSERT IMAGE **
+
+Guilds should issue participation certificates that include the following:
+* Type of participation (member / senior member / manager / etc.)
+* Length of participation (months/years)
+* (optional) Level of participation (excellence, standard membership, other levels they want to note)
+  
+Participation certificates can serve as a way for DAO members to create a “resumé” of their experience with proof of participation under any guild they belong to.
+
+** INSERT IMAGE **
+
+Guilds can submit a table describing their certificates and their meanings to the DAO Reputation Engine, or make it public to all. Using the certificate table, the tomiDAO, other guilds, and other ecosystems can interpret the participation level and quality of all members of the tomi Guilds system. Because of the complexity of reputation interpretation, it is recommended that Guilds limit themselves to a few types of certificates. Too many certificate types will make it difficult to interpret for outsiders (which is the whole purpose of the certificates). While the system will not limit the number of certificates, the interpretation engines initially will be limited in their capabilities. It is expected that AI will be able to be implemented to interpret reputation and certificates, but it is unlikely to happen within the first 2 years of the system’s implementation. 
+
+If possible, the system should be architected for cross-platform compatibility so it can be used by anyone in the EVM ecosystem.
+
+Negs: Certificates of bad reputation
+
+In an SSI system where people have discretion over what credentials to display (selective disclosure), it is difficult to report negative behavior, because participants can reject the credential or simply not display the credential. At the same time, if someone behaves poorly, rugs a treasury, or delivers poor quality services, the community wants to know that information. In the current environment, cheating often happens because people are anonymous and their reputations are not recorded anywhere. Furthermore, people’s reputations are a multitude of attributes. Some people might be amazing workers but have difficulty getting along in a team. It’s up to each team to decide whether they want someone friendly who does slower work or someone who is a recluse but gets more work done.
+
+As a community, Web3 needs better signals of bad actors, or of people who simply are lacking in a particular skill that is needed for success in a particular context. Therefore, we need to have a system of recording negative activities and failures. (We also need a system of Reputation Rehabilitation, because people do take reparative actions and improve their skills based on feedback. That is out of scope for this document but should be developed based on actual use cases in the first year of implementation of the reputation scores.)
+
+In order to ensure that guilds and the DAO can record people’s negative performance, the initial specifications include DAO execution credentials as well as a tomi Warnings Authority, where any negative certificates are registered. The guilds can issue one of the standard Negs and must include evidence (such as on-chain transactions) or a written explanation of the testimony. People can remain anonymous (for example, in the case of sexual harassment), in which case a single Neg may not be considered adequate to have a major negative impact on someone’s reputation. 
+
+Initial proposal of available Negs:
+* Financial negligence or malfeasance
+* Poor work performance
+* Social misconduct (online / IRL)
+* Harassment or stalking (online / IRL)
+* Physical violence
+* Lies / dishonesty (verbal / financial)
+* Obnoxious overshilling
+* Poor treatment of employees / team members
+
+We recognize that there are brilliant people who are not nice and that there are people who are socially awkward. It is each community’s decision regarding what behavior they tolerate and what Negs they recognize as significant. This is an experiment which we feel is important to the industry for identifying malfeasance and poor behavior, and we expect the system to evolve over time.
+
+We recognize that people can create new identities and get a clean slate at any time. That feels appropriate for the purpose of the DAO. National enforcement authorities should deal with more serious violations. 
+
+Workflow for Negs:
+1. A guild or individual issues a Neg credential. Guilds must expose their identities, but individuals do not need to in circumstances of harassment or violence. Issuers are highly encouraged to offer a course of action to make up for the negative consequences.
+2. The credential is issued to the person’s wallet, and to the appropriate Warrants Authority.
+3. The individual can appeal or take appropriate compensation action (which may be as simple as an apology). 
+4. If the rehabilitation is satisfactory, the original issuer issues the proof-of-rehab or proof-of-apology. They may also issue additional credentials (sometimes the compensation might be above and beyond the request).
+5. The Negs are stored with the Warrants Authority, but they are secret and nobody has access to them without the permission of the recipient.
+6. If an individual or guild wants to check someone’s Neg record (for example, for hiring, DAO applications, etc.), they make a request for the exposure of that person’s Warrant ratings. They can ask for a full report or just the highlights (number and dates of the Negs).
+7. The person must approve the request for exposure of their Neg Record. 
+8. The Warrants Authority will expose the data requested only to the authorized recipient and only for a specific use and period of time.
+9. Deliberate or accidental exposure of other people’s Negs will result in a guild or individual being banned from asking for reports in the future.
+
+Warning: Everyone has enemies, everyone makes mistakes, and sometimes people complain because they are in a bad mood that day. Having a few Negs should not exclude people from participation, particularly if they have taken reparative actions. On the contrary, someone with absolutely no negative reports may be gaming the system or using multiple identities. In other words, a totally clean record over time could be considered more suspicious than one with a few Negs.
+
+Certificate issuance for guilds
+
+Guilds will establish the requirements within the guild for issuance of the credentials. Some guilds might let any member issue a credential, others might require a majority vote, etc. 
+
+The Guilds will submit its requirements to the Credential Pick-up Hub (temporary name). To issue credentials, one guild member will create the credential issuance on the hub. If it requires more than one signature, those signatories will log into the hub and confirm the issuance as required.
+
+
+Automatic credential issuance 
+
+* All guild membership will come with a VC automatically issued based on the amount of time served and the name of the guild that the person served in. 
+
+DAO execution credentials
+
+The DAO will issue a credential to everyone who has performed work or received funding from the DAO, including retroactive issuance. This will be done by the DAO Stewards or by the individual/group/committee who commissioned the work to be done by the DAO. For example, this specification was commissioned by DAO Owl and Camel, so they will issue a credential to the wallet addresses who have performed work under these specifications.
+The purpose of the DAO credential is to let the community know the quality and completion of DAO-approved proposals. At each milestone and at the completion of a proposal, the responsible party will issue one of the following credentials to the wallets involved in delivering the work:
+
+* Outstanding: Completion of the proposal that went beyond the requirements.
+* Excellent: High-quality delivery 
+* Good: Satisfactory delivery of the expected work.
+* Incomplete: The work was not delivered in full.
+* Unacceptable: The work was delivered but the results did not meet the minimum criteria that was expected based on the amount budgeted and the time to deliver.
+
+In addition to quality certificates, the DAO can also issue one of the following indicators of the group’s adherence to timelines:
+* Early delivery
+* On-time delivery
+* Late delivery
+
+It’s important to note that these are self-sovereign Verifiable Credentials, meaning that the proposal-maker does not need to accept the credential and they have complete sovereignty to display or not display the credential when asked. However, the winning of the proposal in the DAO is an on-chain activity, so if someone receives funding from the DAO but does not show a credential that the work was completed, the lack of a completion credential serves as a negative reputation signal. 
+
+Credential pick-up hub 
+
+Credentials are issued from the guilds, but a person must accept the credential to their wallet. The Credential pick-up hub will be a website created and stewarded by the tomiDAO. Participants log into the hub and see the list of credentials they have been issued. Participants can accept or reject the credentials that they are issued. The portal can display the credentials in the person’s wallet plus any unclaimed credentials. Credentials are stored in the wallet and displayed when the wallet is connected to the portal.
+
+By default, credentials will not be held by the issuing guild or by tomi, nor will they be stored in the credentials issuing platform. When someone rejects or deletes a credential, it disappears forever. When someone accepts a credential it is stored in the person’s wallet and each person can determine how they want to back up the credentials. Tomi can serve as a credential storage if that is what the user wants, however the default is for the user to make their own choices in storing credentials. 
+
+** INSERT IMAGE **
+
+The tomi Wallet will allow people to export credentials to a physical storage device, to store them in IPFS or in Google Drive as an encrypted file. Self-custodianship is key to creating a system that gives people full sovereignty over their reputation and credentials. Over time, other third parties may offer services to store credentials. This is not a base functionality of the system, but it is feasible to imagine a third-party business model in creating safe storage for people’s credentials. 
+
+IMPORTANT NOTE: Unlike blockchain-based NFTs, the credentials are OFF-CHAIN and cannot be restored in case of loss. The credentials are stored on the DEVICE where the person chooses to store them. In the case of loss or damage to the device, the person cannot restore the credentials if they do not specify more than one storage location.
+
+** INSERT IMAGE **
+
+Once a credential is accepted to the wallet, it is stored in the wallet and disappears from the portal. The portal does not store credentials. Each issuer can decide whether to store the issued credentials, but the primary responsibility for storing credentials is with the recipient. The recipient can also permanently delete credentials. Tomi does not store credentials unless that service is requested by the user. The tomi wallet can be configured for local storage, storage on an external or cloud drive, or potentially on IPFS or other storage chosen for integration by the tomi team. 
+
+### Reputation Interpretation Engine
+
+As explained above, there are different circumstances under which someone might want to understand someone’s reputation or trust score. The trust needed for someone to be on a Stewardship council is different than the trust needed for someone to be allocated funds for a marketing proposal. Therefore, the tomiDAO intends to create a generic reputation interpretation engine. A generic Reputation Interpretation Engine could become generic DAO tooling both for tomi and for other DAOs. 
+
+The reputation engine will allow anyone to create their own interpretation graphs with output that gives them up to 5 ratings scores for grouped information. The builder of the interpretation creates their categories and then includes input that makes up the score on each of the ratings. 
+
+The reputation engine can input any of the information that is included in the tomi SSI Wallet, including Web3 credentials, Web2 proofs, verifiable credentials, on-chain activity, and any other credentials that the individual wallet has accumulated.
+
+When creating a reputation score, the assumption is that each of the 5 ratings will be listed from 1-100 (positive ratings) and there will also be a warning score from 0 to -100, which indicates the types of warrants and negative ratings accumulated by the wallet, as well as a rehabilitation score which shows the actions the person has done to remediate any damage they have caused in the past.
+
+The cumulative score will allow people to understand the capabilities of the person they are assessing. For example, if someone is applying for funding from the DAO, the reputation interpretation score might include financial responsibility, technical capabilities, and communications skills. For this particular proposal, it might not be important to know if the person has good social skills, because it’s a development contract. In that case, the person setting up the report would look at someone’s Github, participation in other DAO proposals, delivery of technical work, and the documentation for the projects. They wouldn’t need to look at PoAPs for conferences, because they don’t care about social or marketing skills for this particular contract.
+
+To create a full specification for the reputation engine, the DAO should allocate funding in late 2024 or early 2025 for the specifications writing and then solicit proposals for the development tasks. 
+
+Issuer Reputation
+
+Reputation credentials are issued by different guilds as described above. In order to determine which guilds are trusted verifiers, tomi will issue a registry of issuers and certificates that tomi considers to be valid. The tomiDAO Stewards or a committee elected by the tomiDAO will be responsible for establishing and maintaining the Tomi Trusted Verifiers registry.
+
+The registry is a list that validates that the certificates issued are what the guild claims them to be. The tomi registry does not judge the quality of the certificates, but just that they are what they say they are. In other words, if a Guild issues a “Certificate of Participation”, and that Guild is on the tomi verified guild registry, it means that tomi has checked that the certificate is issued to participants in the guild. If the Guild issues a qualitative certificate, for example, that someone has accomplished outstanding work, a listing on the registry would mean that the quality of those certificates really does signify outstanding work. 
+
+The Stewards will devote 8 hours each month to updating the registry. The DAO will create a capability for users to issue complaints about certificate issuance so that the Stewards can be made aware if there are issuers that need to be removed from the registry.
+
+The Registry system will offer other authorities to publish their own registry of recommended validators. For example, a known entity such as “Vitalik” or “BanklessDAO” could issue a registry of Guilds that offer valid certificates. This mechanism provides reputation interpreters to choose the authority that they feel is most relevant for validating the validators. If tomi were to become opaque or corrupt, or have a low quality standard, reputation interpreters could use other registries as an alternative or a supplement to the tomi list of valid issuers. In this way, the certificate issuance is fully decentralized, because any third party can perform its own audit of certificates. If the quality of that registry is superior to tomi’s registry, then others will natural prefer other certificate issuer registries. Eventually, it may be unnecessary for tomi to maintain the registry if there are enough alternative registries of high quality. 
+
+The intention is that the registry may be replaced by a more distributed system in the future where the DAO participants and users of reputation can assign reputation to the certificate issuers. For example, there may be a way to review validators in the future. Qualitative reviews may eventually replace the need for a registry of verified validators. The DAO will consider such solutions in the future.
+
+### tomi Reputation Score
+
+The tomi reputation score will be implemented after 3 months of operation of the Credential Issuance Engine. The reputation score is designed to identify the reputation of the person who is taking an action within the tomiDAO and determine their capabilities as they relate to the action they want to take. Examples:
+* Anastasia is running for the stewardship council of the DAO
+* Breno is submitting a proposal to the DAO
+* Chinera applies for a job as community manager
+
+In each of these cases, the DAO can ask for the applicants to submit their information for a reputation assessment. Initially, there will be only positive assessments until a Warrants Authority is implemented.
+
+The initial reputation engine will simply allow a permissioned way for applicants to show any of their credentials they want to show. They might show NFTs or PoAPS, certificates from their accomplishments in the DAO, the amount of time they have held or staked $TOMI, evidence of participation on the Discord channels, etc. Any evidence they wish to open up in their wallet will be presented to the authorized receiving party. 
+
+The portal will allow for the DAO to display that information to anyone in a particular guild, or to just the individuals who are making the assessment.
+Furthermore the DAO Stewards may create a “tomi Reputation Score” which represents someone’s trust level. The stewards will determine whether such a score is necessary and submit a proposal to the DAO on how the engine will work for the reputation score. The DAO can then solicit proposals for the development of the reputation score creator.
+
+
+### Warrants Authorities
+One of the main obstacles to identifying bad actors and improving people’s behavior is that only positive certificates can be issued. Organizations issue Proofs of Participation, but not Proofs of non-participation, proofs of chronic tardiness, or proof of overstepping one’s bounds. Furthermore, it is a basic human right to have selective disclosure. In other words, if someone has made a mistake in the past, they do not have to let others know about it unless they want to.
+
+In the above configuration or reputation issuance, it is possible to know some things by omission. If someone is awarded DAO funding but does not show a certificate of completion, the assumption can be made that they did not complete the task or did a poor job. But if someone has spammed the Discord, failed to pull their weight in a tomiArmy team, etc., there is no on-chain record and therefore it is impossible to find repeat offenders. Furthermore, when people are not punished, they can continue the behavior rather than learning their lesson and improving themselves and the community as a whole.
+
+The Warrants Authority is an experiment that replicates something like a “criminal records check”, where there is a repository of negative ratings (Negs). Just like a criminal record check, the individual needs to give authorization to the party who requests the check. 
+
+The Warrants Authority will run for a period of 6 months and then it will need to issue a report of how the experiment is going and make recommendations for upgrades.
+
+Whenever a guild issues a Neg, they also issue it to the Warrants Authority, which keeps a record of all negative reports to all wallet addresses in the tomi system. When individuals apply for participation as a steward or allocation of funds from the DAO, they will be asked to reveal a summary report of their Negs for review. They have the right to refuse to show their report, and still apply for these positions. 
+
+Likewise, people will have the right to appeal and ask for rehabilitation. The complainant could ask for any type of compensation, from an apology to a repair of damage, etc. The Warrants Authority will encourage all parties to issue rehabilitation requirements for all Negs, to attempt to always improve the community. Usually a wrong can be easily rectified, but the Neg records will allow the community to understand whether apologies are sincere based on repeat behavior.
+
+A report with fewer than 3 Negs is considered completely clean and will be issued as such, unless there is proof of a serious offense such as rugging a large amount of funds, physical violence, etc. For serious complaints, the Warrants Authority expects the complainant to take legal action in the appropriate jurisdiction. The WA does not serve as an enforcement authority, but as a reputation repository only.
+
+
+tomi Warrants Authority
+
+Warrants Authority Standards
+
+After 6 months of operation, the tomi Warrants Authority will create a recommendation document that will 
+
+Warrants Expiration 
+
+A person’s past should not be held against them indefinitely. The following standards are recommended but will be updated after 6 months of operation of the Warrants Authority (see above):
+* Verbal / text offense: 3 months if there are no other complaints in that time, or if the person undergoes communications training/personal development. 1 year if this is a common occurrence.
+* Physical assault or harassment: as per local jurisdiction laws, maximum 5 years
+* Rug, failure to pay invoices, or financial cheating: 1 year after the refund of the full amount rugged or if forgiven by those wronged.
+* Poor work performance: 3 years
+* Tardiness, lack of professional conduct: 6 months
+* Late payments: 6 months if no repeat, 3 years for other occurrences
+
+UX Mocks
+
+Questions
+
+* How should we think about issuance of a “score” or reputation interpretation engine?
+* Assuming most of the Warrants Authority is done through automation, how big should the stewardship committee be? What should be the responsibilities of the stewards? 
+* Can we make this into a team strengthening activity rather than give it a feeling of punishment and shame?
+
+Out of scope
+
+* Ratings of the guilds themselves. Over time, guilds will get a reputation of their own (for example, one guild may give out certificates easily, and another guild might be very strict and only give out certificates of high quality). Initially tomiDAO just has officially validated guilds and ones that are not validated. The intention is to create a guild reputation system so that it is not necessary to have a central authority (tomiDAO) to validate the guilds.
+* Reputation Rehabilitation. A team or individual may be in a situation where they under-perform, receive warrants, or otherwise establish a poor reputation. These teams and individuals may take actions to make up for their past poor performance, and they can apply for certification that they have repaired damage, improved their social skills, etc. We recognize the need for a rehabilitation authority and we recommend the Stewards create a reputation rehabilitation procedure over the course of the first 2 years, based on actual instances.
+
+
+### Credential recognition
+
+Functionality for recognizing people’s participation records and reputation when submitting proposals, voting, or participating as stewards.
+
+### Membership and recruitment
+* Identification of TomiZens
+* Basic membership requirements and tiers of membership as TomiZens
+* Connectivity with the tomi SSI Wallet
+* Recognition NFTs and POAPs
+* Recognition of certificate issuance
+* Whitelist of acceptable guilds
+
+## tDNS DAO
+
+### Goals
+
+Success Metrics
+
+* Issuance and adherence to budget for 2024
+* Sufficient stewardship for the first 1000 websites launched on the tomiNet
+* Domain management of the .com and .tomi domain names for year 2024-2025
+* Launching of AI for identification and blocking of content that violates community guidelines
+* Enabling the implementation of APIs for content moderation from third parties
+* Enabling discovery tools (search/crawlers) from third parties
+* Implementation of appeals committee for content that is caught by AI but should not be banned
+* Launch of a dispute resolution mechanism/team
+
+Assumptions and dependencies
+
+* The DAO assumes that the tomi development team will have launched the tomiNet in a usable format.
+* The tDNS and DAO need to be linked properly by the R&D team at tomi for the functionalities described.
+* To have a WWW to manage, there must be websites launched using the tDNS. All of the appropriate infrastructure (domain hosting, SSH equivalent, DDOS prevention, etc.) needs to be in place for the tDNS DAO to be required.
+* Stewards and other people spending time managing the DAO need to be paid. The tDNS DAO will be dependent in its first year on the tomiDAO. The assumption is that the tomiDAO will allocate appropriate funding, including the issuance of the promised annual $TOMI 10,000,000 to the DAO.
+
+### User Stories
+
+* Dana holds multiple partner tDNS names and auctions them to people who want to create their websites in tDNS
+* Estelle runs an open source company and creates an ad-free search engine that can be used on the tDNS network. She buys searchme.com, and includes a “tip jar” for tomiZens who want to make sure her team has the funds to keep searchme up and running.
+* Fajar runs an ecommerce business and builds a website at the tomi domains BuyStuff.com and BuyStuff.tomi . His website accepts ERC20 compatible tokens as well as fiat currency in his local country.
+* Gloria develops APIs for content moderation. She uses LLM APIs for basic moderation as well as user feedback to provide a variety of filters. Her website, www.protection.com, allows people to pay for software licenses to use a suite of content filters such as “Parental Protection”, “Safe for Work”, and “Uncensored Adult”.
+* Hester is a political activist and runs an exposé site where they publish information exposing government corruptions, scandals, and conspiracy theory opinion pieces.
+
+Requirements 
+
+UX Mocks
+
+Questions
+
+Out of Scope
+
+### Technical decisions
+
+The tomi development team is currently in charge of the following technical decisions:
+* Name formats
+* Technical specifications
+* Security and managing malicious traffic
+* Abuse prevention
+* Scaling and robustness
+* Failover and backup
+* Underlying infrastructure
+* Node development and rewards
+
+### Initial stewardship
+The tomi development team will continue to manage the technical aspects of the tomiNet for the first year of operations. After the first 6 months of operations of the tomiNet parallel WWW, the tomiDAO Stewards will set up a series of conversations with the tomi team to understand more deeply the technical operations. After this conversation, the Stewards will make a proposal for how to decentralize the technical aspects of management of the tomiDNS.
+
+### Budgeting and finance (within tDNS-DAO)
+
+#### Income sources: tDNS DAO
+
+The tDNS sources of income will be as follows:
+* Sale of initial tDNS names (50%)
+* Percentage of sales from partner tDNS (50%)
+
+The initial tDNS DAO launch will be as follows:
+1. Budgeting from main DAO for stewardship committee: February 2024
+2. Election of a stewardship committee: March 2024.
+3. Creation of DAO and multisig functionality for tDNS: April 2024
+4. Full accounting and reporting of funds owed to the DAO from tDNS sales and partner sales: April 2023
+5. Deposit of management funds into the tDNS DAO: May 15, 2024
+6. Establishment of working annual and quarterly budget by steering committee: June 2024.
+
+The tomi tDNS marketplace will provide a full accounting of all tDNS domain names sold on May 1, 2024 and at that time deposit the funds in the tDNS DAO. The tDNS DAO will be described in the tDNS section below. tDNS DAO will be managed by a steering committee of 7 people using a multisig and a Tally, Snapshot, Commonwealth, or similar ERC20-compatible DAO management technology. 
+
+#### Annual budgeting
+
+#### Payment for DAO participation
+
+#### Financial council
+* The DAO will have a steward council of 7 stewards with a multisig requiring 3 of 7 signatures for milestone approval. 
+* The council will hold money for different proposals based on milestones accomplished, committee
+
+#### Monthly Retainer smart contract
+The Monthly Retainer smart contract will be created for the payment of council members, stewards, and other monthly salary requirements. Functionality of the Monthly Retainer smart contract:
+* Hold in escrow budgets allocated from the DAO to specific councils and committees such that each amount is held for that specific group.
+* Integrate with the DAO such that when people are elected to a committee, their wallets are connected to the smart contract for regular payment.
+* Pay the monthly retainers/salaries as agreed upon by the election process.
+* Provide a “stop” mechanism where a majority of the qualified voters (qualifications for that particular council) can take a person off the council and 
+
+#### Revenue streams
+The main revenue model is the tDNS registration. However, other revenue models may come into place, such as third-party add-ons for security, safety, and other types of services to the tomiNet members. 
+
+### Domain Management
+
+## Registry-Registrar relations
+
+In Web2, registrars and web hosting companies serve important functions. Registrars help create a competitive market for domain names. Web hosts sell both domain names and other services to end users. While a discussion of hosting services is out of scope, because any domain hosting service can be used for tomiNet, it is expected that some of the functions of the registrars will need to be managed by the DAO after the first year of operations.
+
+Registrars in the tomiNet are the same as domain owners. In Web2, there is some controversy about the value of “domain squatting”, which means the purchase of valuable domains with the intention to speculate on the price of those domains. tomiNet actively encourages the collection of valuable domain names in order to establish a fair market price, but the current system does not provide a way for people to contact a domain owner and make a purchase of a domain name. We expect the development of third-party marketplaces, and potentially the DAO may wish to implement policies regarding the sale and trade of domain names.
+
+In January-February 2025, the DAO stewards will create a series of 3 online discussions of domain name management with the holders of tDNS names and tDNS partner NFTs and make it open to the public. They will discuss the relationship between the tDNS holders and those who want to create websites on those domains. Following these meetings, the Stewards will make recommendations of policies regarding the tDNS domain holders (registrars) and their place in the ecosystem. This will be an annual process that will involve all stakeholders in the health of the ecosystem.
+
+At the time of writing, tomi is assuming there is a reason for this distributed role management in Web2 (registrars, hosts, domain holders) but the network does not yet have the volume to need to separate the different responsibilities. This specification assumes that as the network evolves, it will become obvious that additional decentralization of roles is necessary and that the community can come together to determine the appropriate steps and governance needed to ensure the health of the system.
+
+#### Domain release and pricing
+The initial tomiNet has released the Top Level Domains (TLD) at the price of $100 in $TOMI tokens, with an open auction for 48 hours. (Details of the Partner program can be found on the tdns.network website.)
+After the first year of operation, additional TLDs can be released, based on decisions from the DAO. The considerations for releasing domain names should include:
+
+* Demand for a certain TLD, for example, gaining a large number of participants in a country that wants to release the domains for their country, or teachers wanting to have a .edu domain name.
+ 	
+* Demand for .com addresses and the need to offer additional addresses.
+ 	
+* Requests from existing users.
+ 	
+* Financial considerations for the viability of the tomiNet.
+
+The process for releasing TLDs should include the following steps:
+
+1. Public discussion and consideration of the release timing, 	costs of the domains, and the structure for auctioning and owning TLDs with that ending. In some countries, $100 up front might be prohibitive, and the DAO could create any structure it would like to in the future for specific domain names.
+ 	
+2. Presentation of proposals for the release of the TLDs in question. If there is general consensus in the public discussion, it may be that only one proposal is necessary. Where there are differences of opinions, up to 8 proposals may be available in a 	voting round. If more than 8 proposals are presented, there will be signaling based on asessment of the discussion using LLMs to determine the 8 proposals most agreeable to the largest numbers of voters, and a validation of those 8 proposals by the stewards to make sure none of them violate the basic values of tomiNet.
+ 	
+3. Ranked voting or yes/no voting for the proposals. In ranked voting, the winning proposal must have at least 40% consensus. Where there is less than 40% consensus on the top proposal, a runoff will be held between the top 2 proposals in the ranked voting round.
+
+Voting in the ranked voting will be similar to the voting rights in steward elections:
+
+The ranked voting recommendation for the candidates will be weighted for different levels of community participation:
+
+
+* $TOMI holders: 100 votes
+ 	
+* Pioneers: 500 votes
+ 	
+* TomiArmy members with certification of participation: 200 votes (List to be 	provided by TomiArmy Stewards)
+ 	
+* Active 	Discord and community members with proof of participation: 200 votes
+
+
+* DAO experts based on list from DAO Owl: 200 votes
+
+
+#### Branding and art
+
+#### Domain registry management and privacy
+
+### Content moderation and community guidelines
+
+#### Goals
+* To create a content-moderation system that bans the most egregious content from the tomiNet.
+* To create a content-moderation system whereby users can choose their level of moderation by choosing the third-party content filters that suit them.
+* To create and maintain standards that allow and encourage third-party content moderation filters as plug-ins to the tomi Browser/app.
+
+#### Success Metrics
+By May 2024, tomi has a default content filter and a content moderation DAO that allows people to flag sites, have sites go through a content moderation committee, and ban sites.
+By May 2024, tomiBrowser publishes standards by which any third party can create a content moderation filter to plug in. 
+By June 2024, tomi will have a content appeals court that will handle content moderation appeals.
+By July 2024, tDNS DAO will have a stewardship team for the filters and for bringing in additional developers to create their third-party filters.
+By December 2024, several third-party content filters will have joined the tomi ecosystem.
+
+#### Assumptions and dependencies
+Without a large number of people doing content moderation, the tomiDAO will not be capable of taking on the task of moderation.
+
+#### User Stories
+* End-user: Dana works for an ecommerce company in a location where ecommerce is restricted. Her company uses the tomiBrowser to manage their websites. She uses the Default tomiNet basic moderation browser capabilities when at work, with an additional Corporate Plus filter by a third party that her company has approved. For her children, she has installed a Content filter in their native language which is child-safe. It also gives them sites in English, but through the same child-safe Content filter system. When Dana gets home, she loves to hear about conspiracy theories and freedom fighter movements. She uses an Adult Basic filter to allow her to see content that might be banned in the Corporate filter. 
+* Third party: Magic Mods is a company providing third-party content filters. They offer a variety of filter plug-ins as add-ons to the tomi Browser. Their packages include family-filters, “Adult Entertainment” permission filters, and a variety of content moderation modules based on people’s preferences for particular ideologies and religious beliefs. 
+* ??? Not sure how to think about tea
+
+#### Requirements
+
+#### UX Mocks
+
+#### Questions
+
+* What mechanism does the Google Safe List use for website screening? Is it a browser plug-in? How does it update? Is that something we can integrate for third-party integrations?
+* Are there open-source filtering engines we can use for initial “censorship”?
+* How did the Brave team approach censorship/browser filtering? Is there a potential partnership for the minimum viable filter?
+* What is tomi’s responsibility for the initial censorship capabilities?
+* Should banned URLs be allowed in more lenient censorship filters?
+* To what degree can tomi use AI to identify content that is offensive or repetitive?
+* How can we deal with content attacks? Bots? Other types of offenders?
+* Should wallets become banned if they are too frequently associated with malicious behavior?
+* Should AI-generated content have some limitations or labels on it?
+
+#### Out of Scope
+
+* Bots, scams, malicious code on websites, malicious code in images. The main purpose of the Google Safe Browsing List is to identify those sites that are actually malicious, phishing, or malware sites. This is obviously banned content and the tomi development team is tasked with managing security and threats.
+* This document does not go into the community guidelines themselves. That could be done at the stewardship/metagovernance level, or the stewards or community could create a council to make changes to the community guidelines. Theoretically, anyone from the community could suggest changes and have it up for a vote in the DAO.
+
+#### Design considerations and vulnerabilities for content moderation:
+* Determining the right policies for a free speech but non-violent web is a difficult balance. tomiNet exists to encourage resistance to immoral regimes, while at the same time not wanting to support violent activity. The DAO exists to ban only the most egregious content, allowing people to use their judgment. tomiNet envisions toolsets (like parental filters) which will allow people to determine their own levels of comfort in browsing the web. The content moderation DAO may evolve over time to create ratings that enable such tools rather than outright censorship of borderline activities.
+* Reporting itself is part of the content moderation. If only one person flags a site, it isn’t doing much harm (because people aren’t visiting the site). If hundreds of people are flagging a site, it is reaching many people so it is either offensive, or those people are creating a coordinated attack on certain kinds of content. In the case of collusion to attack certain types of content, it may be useful to down-regulate people who collude to censor (future feature).
+* Reviewing websites with extreme content is an emotionally taxing activity, and seeing objectionable images can cause psychological damage. It’s important to ensure that people are not harmed by overexposure to this type of content.
+* Technological solutions, for example, filters that blur pictures or AI identification of images, could be part of the solution in the future in order to avoid harm to people and streamline the censorship of the most obvious violations. A reviewer can always remove the filter, but the system could protect them from the initial impacts.
+* The censorship mechanism could become an attack vector. The DAO could be flooded with spurious reports or someone could flood tomiNet with sites that violate the terms in order to intentionally flood the DAO with work.
+* Artificial Intelligence has reached a level at which it can be trained to identify offensive content, but the current models have been overzealous in over-censorship, so some training will be required up front to allow adult content while outlawing the worst types of content. AI can also be used for repeat offenses using similar content, bots, or other types of non-human generated content. 
+* For the initial iterations of censorship, the AI will be used as the first filter. We expect the automated moderation to be improved by the human process for misidentification. Rather than having all reported content go to DAO moderation, website owners will need to make an appeal that their content was mis-identified by the AI.
+
+#### Content guidelines 
+tomi wants to eliminate censorship, but there are some types of content that are so egregious that nobody should see them. We have several ideas on how to implement content moderation, and the DAO will make decisions on how to do so and provide the capabilities for automating the process as well as including participants in the moderation process.
+
+#### Default URL banning and default moderation policy
+This moderation will be the top-level moderation for tomi DNS, to ban URLs that are demonstrably violations of the content policies.
+
+tomiNet bans highly inappropriate and unethical content. The initial guidelines for banning of content are:
+* Child pornography and pedophilia.
+* Extreme and gratuitous violence (does not include most forms of games)
+* Illegal arms trading and human trafficking.
+
+tomiNet starts with the most lenient possible policies, with the potential for implementing additional restrictions only when there is a wide consensus that an activity is universally immoral.
+
+
+#### Design considerations and vulnerabilities for content moderation:
+
+* Determining the right policies for a free speech but non-violent web is a difficult balance. tomiNet exists to encourage resistance to immoral regimes, while at the same time not wanting to support violent activity. The DAO exists to ban only the most egregious content, allowing people to use their judgment. tomiNet envisions toolsets (like parental filters) which will allow people to determine their own levels of comfort in browsing the web. The content moderation DAO may evolve over time to create ratings that enable such tools rather than outright censorship of borderline activities.
+* Reporting itself is part of the content moderation. If only one person flags a site, it isn’t doing much harm (because people aren’t visiting the site). If hundreds of people are flagging a site, it is reaching many people so it is either offensive, or those people are creating a coordinated attack on certain kinds of content. In the case of collusion to attack certain types of content, it may be useful to down-regulate people who collude to censor (future feature).
+* Reviewing websites with extreme content is an emotionally taxing activity, and seeing objectionable images can cause psychological damage. It’s important to ensure that people are not harmed by overexposure to this type of content.
+* Artificial Intelligence has reached a level at which it can be trained to identify offensive content, but the current models have been overzealous in over-censorship, so some training will be required up front to allow adult content while outlawing the worst types of content. AI can also be used for repeat offenses using similar content, bots, or other types of non-human generated content. 
+* The censorship mechanism could become an attack vector. The DAO could be flooded with spurious reports or someone could flood tomiNet with sites that violate the terms in order to intentionally flood the DAO with work. Again, AI can be used to manage repeat attacks.
+* For the initial iterations of censorship, the AI will be used as the first filter. We expect the automated moderation to be improved by the human process for misidentification. Rather than having all reported content go to DAO moderation, website owners will need to make an appeal that their content was mis-identified by the AI.
+
+#### Initial Misidentification Process for Content Moderation by the DAO
+
+Content that is filtered by AI may not actually violate the guidelines. Any website owner can appeal to have their content reviewed by the content moderation DAO.
+
+TOMI tokenholders and Pioneer holders participate in the DAO. Content moderation votes are 1-wallet-1-vote. Initially, changes to the content moderation policies will go through a process similar to Technical Proposals (until the DAO decides otherwise). 
+
+A website is banned only if 9/10 viewers say it should be banned. Otherwise, it is considered permissible content. In other words, it must be clear to pretty much anyone that the site violates the content requirements for it to be banned.
+1. Any website owner can appeal that their content was mis-identified. They must bring two vouchers who say that their content should not have been flagged. Vouchers can be any members of the tomiNet. People can vouch for a maximum of 50 sites per month, unless they ask for special permission. (For example, if they work in a profession, such as art curator, where they may be exposed to art expressions that could be mistaken for violence or pornography.)
+2. Each day, the DAO creates a daily list of sites for appeal
+3. The DAO chooses 500 tokenholders per every 60 sites flagged, and requests that they review the content that has been flagged. The DAO uses a round-robin algorithm that ensures that every token holder is summoned at least once per year, and that no tokenholder is called to moderate more than 5X more than the person called the least.
+4. When a voter logs in, they are shown sites from the list in a mixed order which prioritizes the sites that have the most complaints but still provides a semi-random order so that not everyone sees the list in the same order.
+5. For each site, the voter indicates yes if they agree it violates the guidelines or no if not. The voter can stop at any time or when they have voted on all the sites presented. After 1 hour, the DAO stops showing them sites, even if there are more sites on the list.
+6. Voting on a site ends when:
+        * There is 100% agreement (ban) from the first 9 voters.
+        * At least 2 voters say it should not be banned.
+        * There is 90% agreement from the first 10 voters.
+        * 10 votes are collected. To ban a site, 9/10 must vote that it violates community standards.
+7. If the site is to be banned according to the DAO vote, the site NFT is blocked. The owner receives the information on the reason it was reported.
+8. If they want, voters receive a POAP indicating their participation in the DAO vote for having been part of the “good governance” team. In the future the system may use Verified Credentials for asserting their participation.
+
+Note on Social Networks and Messaging Platforms: tomiDAO will not moderate content on social networking sites and other discussion sites. A networking site could be censored by tomi, but not parts of the speech. It is the responsibility of such sites to provide closed members-only areas for speech that could have them censored from the open web areas of tomiNet.
+
+#### Appeals process
+
+Banned sites may be reinstated under one of the following situations:
+* Incorrect assessment of the site (formal appeal) or request for recommendations.
+* Changes made to an existing site based on the site owner’s understanding of the violation.
+* Purchase of an NFT URL that was previously banned and reinstatement by a new site owner.
+
+In order to enter into the Appeals process, the owner must stake $100 in TOMI for the first appeal, $1,000 for 2nd appeal, $10,000 for 3rd appeal, etc. The staked amount vouches for the goodwill of the site owner. If the site still has highly unethical content, the staked amount is awarded to the people who had to view the offensive content.
+
+Appeals will be handled by DAO members who:
+* Volunteered for the council and provided their credentials to be on the Appeals Council.
+* Were approved by at least 45/50 DAO voters that they can be trusted on the council.
+* The council may include hundreds or even thousands of members.
+
+When an appeal is accepted:
+1. The DAO algorithmically chooses 3 people to handle the appeal.
+2. The 3 must agree unanimously that the site has made the appropriate changes to be reinstated.
+3. If the site is not to be reinstated, the council members must provide specific changes that would need to be made to reinstate the site.
+4. If the site passes the reinstatement process, it goes through the full content moderation voting process by the DAO before the URL is reinstated.
+
+#### Banning of tDNS URLs and wallets
+
+The existing tomiDAO includes capabilities for blocking URLs and wallets for those who violate the moderation policies. However, this requires the Pioneers to vote on each and every address that needs to be banned. Not only is it unrealistic to expect them to spend time on voting, it’s unethical to ask the Pioneers to have to look at multiple offensive sites every day. Therefore, the functionality of banning wallets and tDNS addresses must be removed from the existing Pioneer-controlled tomiDAO and automated into the system described above.
+Requirements for this functionality:
+
+* AI banning is automatically implemented. If there is a contact address or email on the website, the AI will send a notification to the webmaster that the URL has been banned.
+* Appeals committee selection and automated rewards system, as described above. Includes staking of tokens for those seeking repeated appeals.
+* When voting is completed on an appeal, the website owner receives notification of the results of the appeal and the website is:
+        * If approved, automatically reinstated (tDNS restored).
+        * If declined, a record is established so the next time it is appealed, the cost will be higher. 
+        * If the site is declined for a second or third time, half the amount staked goes to the appeals committee members who had the task of reviewing the site and the other half goes back to the DAO.
+* When a wallet holds more than 5 tDNS names that have been banned and it launches a 6th banned sites within 1 month of having the last one banned, that wallet is banned.
+
+The wallet owner may request an appeals process at a cost of $4800 in $TOMI tokens, with a $500 processing fee. If the stewards take the case, it is up to them to determine who will review the case. In either situation, the stewards receive the $500 processing fee. 
+
+#### Standards and pricing for third-party moderation plug-ins
+
+### Dispute resolution
+
+The Dispute Resolution team should be elected and ready to start work on the day of the tomiNet launch. The DAO Stewards will put out a call for applicants for a team of 7 people to staff the initial Dispute Resolution team. Elections are expected to take place in the first 2 weeks of May 2024, based on the deployment plan for the tomiNet.
+
+It is unclear what disputes will emerge, but the following are potential issues that could arise in the course of management of the tomiNet:
+* tDNS disputes
+* Monetary disputes
+* Verification disputes
+* Threat resolution 
+* Damage due to technical problems
+
+The initial scope of the Dispute Resolution team will be to handle any issues that emerge, and to investigate dispute resolution tooling for DAOs. The dispute resolution stewards will agree on a fair hourly rate, because it is unknown how much work will be needed initially. Every quarter, the Dispute Resolution team will submit a report to the DAO Stewards with budget and structural recommendations for advancing the dispute resolution capabilities of the team.
+
+# Out of Scope: Marketing DAO (Future)
+
+Currently, marketing is done by the tomi team and the tomi Army. The tomi Army was approved with the DAO budget and has become a separate entity. It is expected that if the tomi Army wishes to have additional funds, they would submit a full report of their use of funds and accomplishments to the DAO before additional funding. At that time, other marketing organizations would be eligible to compete with the Army for marketing funds, or the DAO may decide to create a marketingDAO as many other organizations have done.
+
+# Out of Scope: DevelopmentDAO (Future)
+
+Right now, all the development is done by the tomi team. The work will eventually be decentralized, as outlined in the original tomi Whitepaper, with a time trajectory of approximately 5 years.
+
+With the proposal on an SSI wallet, we are for the first time making progress towards a decentralized development team. If the specifications document and prototyping are successful, we will be on our way to hiring an outside development team for a significant part of the tomiNet! But that’s still a far cry from having a research and development team managed on a DAO. Tools like WonderVerse and HyphaDAO have been some of the first to provide management tools like those in Jira to the DAO world. This article won’t dive into those sub-DAOs because we aren’t yet starting work there.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
