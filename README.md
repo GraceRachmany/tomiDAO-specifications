@@ -1,8 +1,8 @@
 # tomiDAO specifications: DAO Requirements for tDNS release
 
-Contents
+<heading>Contents</heading>
 
-Contents	0
+Contents.........0
 Introduction	4
 Challenges	4
 The structures	4
