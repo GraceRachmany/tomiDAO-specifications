@@ -115,6 +115,8 @@ To be worked on together with the R&D team.
 
 * DAO for marketing and R&D
 
+
+
 # Top-level DAO
 
 Overview
@@ -773,6 +775,8 @@ Functionality for recognizing people’s participation records and reputation wh
 * Recognition NFTs and POAPs
 * Recognition of certificate issuance
 * Whitelist of acceptable guilds
+
+
 
 # tDNS DAO
 
