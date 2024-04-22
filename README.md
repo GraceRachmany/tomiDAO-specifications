@@ -217,4 +217,29 @@ The tomiDAO has the following overarching goals:
 * Having a large enough community of DAO participants for the committees and votes.
 * Time of the development team to work in collaboration with the DAO committees
 
+### User Stories
+
+User stories will be based on each section of the DAO, detailed below.
+
+### Requirements 
+
+Detailed in each section below.
+
+### UX Mocks
+
+To be worked on together with the R&D team.
+
+### Questions
+
+* What is the minimum functionality required for the tDNS launch?
+* How is tomi dealing with security, spam, and DDOS type attacks?
+* What are the most immediate security and attack vectors we need to manage?
+* What is the right balance of AI vs human intervention in content moderation (censorship)?
+  
+### Out of Scope
+
+* DAO for marketing and R&D
+
+  
+
 
