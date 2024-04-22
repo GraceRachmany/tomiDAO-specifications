@@ -899,7 +899,7 @@ Functionality for recognizing people’s participation records and reputation wh
 * Recognition of certificate issuance
 * Whitelist of acceptable guilds
 
-## tDNS DAO
+# tDNS DAO
 
 ### Goals
 
