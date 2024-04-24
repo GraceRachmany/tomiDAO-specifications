@@ -123,7 +123,7 @@ Overview
 
 The tomi DAO has multiple functionalities. The top-level DAO is responsible for top-level requirements across all sub-DAOs. The main DAO provides overall strategy setting, calls for proposals, finance and budgeting, membership, and credential issuance.
 
-![1](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/aeb5b9bb-340f-4a07-a257-495ab30ff0f5)
+![Sketch 1](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/e161ad09-508e-4d8f-be66-af11c0261898)
 
 ## Strategy
 The tomiDAO Stewards will hold strategy meetings twice per year: June and January. The January strategy meeting will be in-person and funded by the DAO. Depending on the funding from the DAO, the tomiDAO stewards may opt to sponsor accommodations or travel. Sponsorship of participants should be used primarily in order to balance the representation of the different interest groups in the tomi ecosystem.
@@ -137,7 +137,7 @@ The strategy meetings will include representative participants from the followin
 * tomi community members, including tomiArmy and tDNS domain holders 
 * projects under the tomi umbrella (tomiChain, Gems, etc.)
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/c12e6424-b835-495c-a053-af2225c40781)
+![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/7ece7289-0974-46eb-861c-2920beadb577)
 
 Each of the above entities will have decision-making power in the strategy discussions. Rather than individuals having power, each of the entities above will have equal decision-making power in prioritizing the strategy if there is a vote or proposal that needs to be passed by consensus. Each of the 6 entities can have their own internal decision-making process which is not dictated by the DAO. For example, the tomi team may be governed by a CEO or executive team, whereas the tomi Pioneers may use voting to determine their stand or to elect a representative.
 
@@ -145,8 +145,7 @@ Strategy discussions should start online and then be completed in an in-person f
 
 The suggested process for strategy discussions: 
 
-![3](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/7e3ae32c-0b39-4f2b-835d-5f55925bd9ff)
-
+![Workflow 1](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/04f1ad69-47d2-4c7d-a704-c94393c0faf1)
 
 ## Finance and budgeting
 
@@ -211,8 +210,7 @@ Additional requirements are described in the sections below:
 Many of the functionalities required by the tomiDAO over time will require stewards and/or committees either for the purpose of temporary management of a new functionality, or as part of the needs of the DAO. For example, budgetary oversight might always be done by a committee, but if the DAO decides on an automated jury-based content management scheme, it might require a temporary group of stewards for the first 6 months until the automation is fully functioning and tested to work.
 Note: The platform Guild.xyz can be used to maintain the groups. Using guild.xyz will ease the ability of the tomiDAO to manage the groups and sub-groups operating as councils. Stewardship elections could be done through something like tally or jokerace so that tomi does not need to develop proprietary technology for everything.
 
-![4](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/05bc593f-ca2d-4325-9954-d6439019a063)
-
+![Workflow 2](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/b5abea16-fb02-4ef5-9918-0ca250cb20e0)
 
 The following table describes the general election process for the creation of a stewardship council. Details on each step are described in the following sections of this document.
 
@@ -443,8 +441,7 @@ Within Web3, separation of issuance and interpretation is demonstrated by the Gi
 
 In all of these systems, one of the main shortcomings is how to manage undesirable behavior in DAOs. tomi has taken into consideration the problems of people who win DAO contracts and do not deliver, or who apply for multiple DAO contracts for the same work, getting paid multiple times for the same work. Similarly, a DAO might want to identify people who make a lot of noise in the community channels but don’t really contribute any useful information or useful work.
 
-![5](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/355a7c5f-0fde-4a87-beab-448361e834a5)
-
+![Sketch 2](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/ad635a37-dd83-4702-a0e7-5ccbb296c6de)
 
 Following these models and considerations, tomi is creating a distributed identity and reputation tracking system  system that has several components:
 
@@ -462,7 +459,7 @@ Following these models and considerations, tomi is creating a distributed identi
 The reputation system components allow for a fully decentralized reputation, allowing anyone to issue credentials, anyone to verify the issuers, and anyone to select the certificates they want to trust. The certificates are intended for issuance based on actual first-hand participation but could be used in other ways as well.
 The following shows the system flow for certificates.
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/6aff0fdd-e9a4-45ad-9169-9437d4034ac0)
+![Workflow 3](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/f80c2c5a-b71a-443f-9018-7bc0b22bc9ed)
 
 1. A person performs work and the guild responsible for oversight of that work issues a credential to the tomi Credentials Portal. The guild may keep a database of certificates issued, or they may discard all data once the certificate is issued.
 2. The person logs in with their wallet to the Credentials Portal. The Portal displays all credentials that have been issued and not yet collected for that wallet address / login.
@@ -471,7 +468,7 @@ The following shows the system flow for certificates.
 
 A completely separate flow is used for reputation interpretation, as shown below:
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/f8410e86-9ddf-4dd5-a8cf-bdf4902dcacf)
+![Workflow 4](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/1295a4f1-8a68-42ed-bde0-691827439a80)
 
 1. The DAO or entity that wants to check the reputation of someone refers to an Issuer Registry to determine what guilds are relevant and reliable. tomiDAO will have a public Issuer Registry, but others can create third-party registries and a reputation interpretation engine can refer to whatever source it chooses.
 2. The DAO requests credentials from the individual who wants to participate. The DAO could choose to ask for any set or subset of credentials it wants to request. The requesting entity should provide clear information about how the credentials will be used (for internal use, public to participants in the DAO, etc.)
