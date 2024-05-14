@@ -52,7 +52,7 @@
       * [Separation of Reputation Issuance and Interpretation](#Separation-of-Reputation-Issuance-and-Interpretation)
       * [Decentralization of Reputation](#Decentralization-of-Reputation)
       * [Negative Reputation](#Negative-Reputation)
-      * [Reputation System Flow / Architecture](#Reputation-system-flow-architecture)
+      * [Reputation System Flow / Architecture](#Reputation-System-Flow-%2F-Architecture)
     * [Credential Issuance (NFT and VC)](#Credential-Issuance-NFT-and-VC)
       * [Goals](#Goals-1)
       * [Success Metrics](#Success-Metrics-1)
