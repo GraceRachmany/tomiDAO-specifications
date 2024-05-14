@@ -13,7 +13,7 @@
     * [Goals](#Goals)
     * [Success Metrics (2024)](#Success-Metrics-(2024))
     * [Assumptions and dependencies](#Assumptions-and-dependencies)
-       * [Dependencies](Dependencies)
+       * [Dependencies](#Dependencies)
 
 # Introduction
 
