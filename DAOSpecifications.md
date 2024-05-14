@@ -1,7 +1,7 @@
 # tomiDAO specifications: DAO Requirements for tDNS release
 
 
-Table of Contents
+# Table of Contents
 =================
 
   * [Introduction](#Introduction)
@@ -10,13 +10,10 @@ Table of Contents
     * [Pioneer control](#Pioneer-control)
     * [Representation of the Netizens](#Representation-of-the-Netizens)
     * [Limitations of token-based voting](#Limitations-of-token-based-voting)
-    * [The Structures](#The-Structures)
-    * [The Structures](#The-Structures)
-    * [The Structures](#The-Structures)
-
-# Contents
-## Contents...........................................................................................................................................................0
-[Test](###Pioneer control)
+    * [Goals](#Goals)
+    * [Success Metrics (2024)](#Success-Metrics-(2024))
+    * [Assumptions and dependencies](#Assumptions-and-dependencies)
+       * [Dependencies](Dependencies)
 
 # Introduction
 
