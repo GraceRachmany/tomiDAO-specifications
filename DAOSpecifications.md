@@ -5,7 +5,8 @@ Table of Contents
 =================
 
   * [Introduction](#Introduction)
-    * [Challenges](###Challenges)
+    * [Challenges](#Challenges)
+    * [The Structures](###The Structures)
 
 # Contents
 ## Contents...........................................................................................................................................................0
