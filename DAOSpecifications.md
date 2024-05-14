@@ -7,6 +7,12 @@ Table of Contents
   * [Introduction](#Introduction)
     * [Challenges](#Challenges)
     * [The Structures](#The-Structures)
+    * [Pioneer control](#Pioneer-control)
+    * [Representation of the Netizens](#Representation-of-the-Netizens)
+    * [Limitations of token-based voting](#Limitations-of-token-based-voting)
+    * [The Structures](#The-Structures)
+    * [The Structures](#The-Structures)
+    * [The Structures](#The-Structures)
 
 # Contents
 ## Contents...........................................................................................................................................................0
