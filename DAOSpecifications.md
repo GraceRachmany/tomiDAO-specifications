@@ -665,30 +665,30 @@ The tomiDAO will have a top-level DAO Credentialing Guild responsible for:
 * Making requests for changes to the term and size of the guild (self-governance). Proposals for changes will go to the meta-Governance DAO or to the full DAO for a referendum. (Depending on the maturity of the DAO at the time of decision.)
 * Determining the costs and income model for issuance of DAO VCs. The credentialing services can be used by DAOs within tomi or those who are using it independently. This service has the potential to generate income for tomi. 
 
-Credential issuing for top-level credentials:
+### Credential issuing for top-level credentials:
 * At least 2 members of the guild must approve the issuance of VCs.
 * The guild may retract VCs within 7 days with a majority of 5/7.
 * The guild may expel any member with a majority of 5/6 of the other members. Grounds for expulsion include violation of community guidelines, false issuance of credentials, and failure to do the fair share of work.
 * If there are disputes among members, the guild applies for conflict resolution to the conflict resolution team. The conflict resolution team should try to resolve the conflict in conversation. If that is not possible, the conflict resolution team may recommend expulsion of a guild member, or a re-election of all members if it is clear that the guild is no longer functioning well.
 
-Compensation for the credentialing guild: 
+### Compensation for the credentialing guild: 
 * The initial commitment is projected 3-5 hours/week.
 * Initial compensation will be the equivalent of $1000/month in $TOMI tokens.
 * After a 6 month trial period, the credentialing guild will report on its actual time spent and the work done, and suggest an appropriate ongoing payment.
 
-Creation of a guild
+### Creation of a guild
 Additional certification Guilds can be created in one of two ways:
 * The DAO can declare the need for a guild and either nominate initial members or run an election.
 * A guild can self-declare and apply for approval from the top-level credentialing guild.
 
-Guilds are responsible for:
+### Guilds are responsible for:
 * Issuance of approved VCs.
 * Their own integrity and self-governance. They may or may not choose to change members, have general elections, etc.
 * Maintaining their reputation. If a guild is not performing, they may lose their approval as an official tomiDAO issuer of VCs.
 * Suggesting members of their guild for election to the top-level guild when elections come around.
 * Guilds can also operate “unofficially”. If a guild wants to use the tomiDAO VC issuance system, they can do so. The Top-level Credentialing Guild may charge a fee for the service.
 
-Certificate definition for guilds
+### Certificate definition for guilds
 Guilds can define the following parameters for their Verifiable Credentials:
 * Name
 * Description
