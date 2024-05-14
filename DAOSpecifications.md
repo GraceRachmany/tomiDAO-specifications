@@ -30,7 +30,7 @@
       * [Questions](#Questions-1)
       * [Out of Scope](#Out-of-Scope-1)
     * [Stewardship and Council Elections](#Stewardship-and-Council-Elections)
-      * [Council Elections Procedure](#Council-Elections-Procedure)
+      * [Council Elections Procedure](#Stewardship-and-Council-Elections)
       * [Requirements](#Requirements-1)
       * [Responsibilities of the First DAO Stewardship Council](#Responsibilities-of-the-First-DAO-Stewardship-Council)
       * [Approval of the Council](#Approval-of-the-Council)
