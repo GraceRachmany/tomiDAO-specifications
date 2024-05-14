@@ -52,7 +52,7 @@
       * [Separation of Reputation Issuance and Interpretation](#Separation-of-Reputation-Issuance-and-Interpretation)
       * [Decentralization of Reputation](#Decentralization-of-Reputation)
       * [Negative Reputation](#Negative-Reputation)
-      * [Reputation System Flow / Architecture](A-completely-separate-flow)
+      * [Reputation System Flow / Architecture](Reputation-System-Flow)
     * [Credential Issuance (NFT and VC)](#Credential-Issuance-NFT-and-VC)
       * [Goals](#Goals-1)
       * [Success Metrics](#Success-Metrics-1)
@@ -582,6 +582,8 @@ The following shows the system flow for certificates.
 2. The person logs in with their wallet to the Credentials Portal. The Portal displays all credentials that have been issued and not yet collected for that wallet address / login.
 3. The person can collect or reject the issued credentials. If they accept their credential, it is sent to their wallet and deleted from the Portal. If they reject a credential, it is deleted forever from the Portal. The Portal does not store a database of credentials issued. (The individual is responsible for wallet backup.)  
 4. The person holds their issued credentials in their personal wallet. They have full autonomy to hold, expose, and delete credentials. 
+
+### Reputation System Flow
 
 A completely separate flow is used for reputation interpretation, as shown below:
 
