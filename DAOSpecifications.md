@@ -52,7 +52,7 @@
       * [Separation of Reputation Issuance and Interpretation](#Separation-of-Reputation-Issuance-and-Interpretation)
       * [Decentralization of Reputation](#Decentralization-of-Reputation)
       * [Negative Reputation](#Negative-Reputation)
-      * [Reputation System Flow / Architecture](#Reputation-system-flow-%2F-architecture)
+      * [Reputation System Flow & Architecture](#Reputation-system-flow-&-architecture)
     * [Credential Issuance (NFT and VC)](#Credential-Issuance-NFT-and-VC)
       * [Goals](#Goals-1)
       * [Success Metrics](#Success-Metrics-1)
@@ -613,7 +613,7 @@ Negative reputation does require centralized authorities (eg, credit ratings age
 
 Because of the delicacy of the issue of negative reputation, it will be implemented only after the credentials system is in place and working well, and only after smaller trials show the viability of these approaches. While this document offers one potential solution on “Negs” or negative reputation issuance, this approach may be the one implemented ultimately. The DAO should work collectively to experiment with multiple approaches to preventing bad behavior and always be flexible in upgrading the system. 
 
-### Reputation system flow / architecture
+### Reputation system flow & architecture
 
 ## Credential issuance (NFT and VC)
 The Credential Issuance DAO will be responsible for issuing credentials. Credentials can be issued either automatically (for example, verifying a wallet address received approval for a DAO approval), or by a group of people (Guild) in the DAO. 
