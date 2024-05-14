@@ -713,7 +713,7 @@ Guilds can submit a table describing their certificates and their meanings to th
 
 If possible, the system should be architected for cross-platform compatibility so it can be used by anyone in the EVM ecosystem.
 
-Negs: Certificates of bad reputation
+## Negs: Certificates of bad reputation
 
 In an SSI system where people have discretion over what credentials to display (selective disclosure), it is difficult to report negative behavior, because participants can reject the credential or simply not display the credential. At the same time, if someone behaves poorly, rugs a treasury, or delivers poor quality services, the community wants to know that information. In the current environment, cheating often happens because people are anonymous and their reputations are not recorded anywhere. Furthermore, people’s reputations are a multitude of attributes. Some people might be amazing workers but have difficulty getting along in a team. It’s up to each team to decide whether they want someone friendly who does slower work or someone who is a recluse but gets more work done.
 
@@ -748,18 +748,18 @@ Workflow for Negs:
 
 Warning: Everyone has enemies, everyone makes mistakes, and sometimes people complain because they are in a bad mood that day. Having a few Negs should not exclude people from participation, particularly if they have taken reparative actions. On the contrary, someone with absolutely no negative reports may be gaming the system or using multiple identities. In other words, a totally clean record over time could be considered more suspicious than one with a few Negs.
 
-Certificate issuance for guilds
+### Certificate issuance for guilds
 
 Guilds will establish the requirements within the guild for issuance of the credentials. Some guilds might let any member issue a credential, others might require a majority vote, etc. 
 
 The Guilds will submit its requirements to the Credential Pick-up Hub (temporary name). To issue credentials, one guild member will create the credential issuance on the hub. If it requires more than one signature, those signatories will log into the hub and confirm the issuance as required.
 
 
-Automatic credential issuance 
+### Automatic credential issuance 
 
 * All guild membership will come with a VC automatically issued based on the amount of time served and the name of the guild that the person served in. 
 
-DAO execution credentials
+### DAO execution credentials
 
 The DAO will issue a credential to everyone who has performed work or received funding from the DAO, including retroactive issuance. This will be done by the DAO Stewards or by the individual/group/committee who commissioned the work to be done by the DAO. For example, this specification was commissioned by DAO Owl and Camel, so they will issue a credential to the wallet addresses who have performed work under these specifications.
 The purpose of the DAO credential is to let the community know the quality and completion of DAO-approved proposals. At each milestone and at the completion of a proposal, the responsible party will issue one of the following credentials to the wallets involved in delivering the work:
@@ -777,7 +777,7 @@ In addition to quality certificates, the DAO can also issue one of the following
 
 It’s important to note that these are self-sovereign Verifiable Credentials, meaning that the proposal-maker does not need to accept the credential and they have complete sovereignty to display or not display the credential when asked. However, the winning of the proposal in the DAO is an on-chain activity, so if someone receives funding from the DAO but does not show a credential that the work was completed, the lack of a completion credential serves as a negative reputation signal. 
 
-Credential pick-up hub 
+### Credential pick-up hub 
 
 Credentials are issued from the guilds, but a person must accept the credential to their wallet. The Credential pick-up hub will be a website created and stewarded by the tomiDAO. Participants log into the hub and see the list of credentials they have been issued. Participants can accept or reject the credentials that they are issued. The portal can display the credentials in the person’s wallet plus any unclaimed credentials. Credentials are stored in the wallet and displayed when the wallet is connected to the portal.
 
@@ -807,7 +807,7 @@ The cumulative score will allow people to understand the capabilities of the per
 
 To create a full specification for the reputation engine, the DAO should allocate funding in late 2024 or early 2025 for the specifications writing and then solicit proposals for the development tasks. 
 
-Issuer Reputation
+### Issuer Reputation
 
 Reputation credentials are issued by different guilds as described above. In order to determine which guilds are trusted verifiers, tomi will issue a registry of issuers and certificates that tomi considers to be valid. The tomiDAO Stewards or a committee elected by the tomiDAO will be responsible for establishing and maintaining the Tomi Trusted Verifiers registry.
 
@@ -850,13 +850,13 @@ Likewise, people will have the right to appeal and ask for rehabilitation. The c
 A report with fewer than 3 Negs is considered completely clean and will be issued as such, unless there is proof of a serious offense such as rugging a large amount of funds, physical violence, etc. For serious complaints, the Warrants Authority expects the complainant to take legal action in the appropriate jurisdiction. The WA does not serve as an enforcement authority, but as a reputation repository only.
 
 
-tomi Warrants Authority
+### tomi Warrants Authority
 
-Warrants Authority Standards
+### Warrants Authority Standards
 
 After 6 months of operation, the tomi Warrants Authority will create a recommendation document that will 
 
-Warrants Expiration 
+### Warrants Expiration 
 
 A person’s past should not be held against them indefinitely. The following standards are recommended but will be updated after 6 months of operation of the Warrants Authority (see above):
 * Verbal / text offense: 3 months if there are no other complaints in that time, or if the person undergoes communications training/personal development. 1 year if this is a common occurrence.
