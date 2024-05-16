@@ -578,7 +578,7 @@ Following these models and considerations, tomi is creating a distributed identi
 The reputation system components allow for a fully decentralized reputation, allowing anyone to issue credentials, anyone to verify the issuers, and anyone to select the certificates they want to trust. The certificates are intended for issuance based on actual first-hand participation but could be used in other ways as well.
 The following shows the system flow for certificates.
 
-![Workflow 3](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/f80c2c5a-b71a-443f-9018-7bc0b22bc9ed)
+![Sketch 6](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/1e2494d1-f8c9-42bf-9e21-8071412d8ec0)
 
 1. A person performs work and the guild responsible for oversight of that work issues a credential to the tomi Credentials Portal. The guild may keep a database of certificates issued, or they may discard all data once the certificate is issued.
 2. The person logs in with their wallet to the Credentials Portal. The Portal displays all credentials that have been issued and not yet collected for that wallet address / login.
@@ -587,7 +587,7 @@ The following shows the system flow for certificates.
 
 A completely separate flow is used for reputation interpretation, as shown below:
 
-![Workflow 4](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/1295a4f1-8a68-42ed-bde0-691827439a80)
+![Sketch 7](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/a7a67bd9-51a4-4bf4-be96-6bd7511668eb)
 
 1. The DAO or entity that wants to check the reputation of someone refers to an Issuer Registry to determine what guilds are relevant and reliable. tomiDAO will have a public Issuer Registry, but others can create third-party registries and a reputation interpretation engine can refer to whatever source it chooses.
 2. The DAO requests credentials from the individual who wants to participate. The DAO could choose to ask for any set or subset of credentials it wants to request. The requesting entity should provide clear information about how the credentials will be used (for internal use, public to participants in the DAO, etc.)
@@ -700,7 +700,7 @@ Guilds can define the following parameters for their Verifiable Credentials:
   
 Guilds can create simplified VCs that don’t have quality ratings. For example, they can create certificates of participation, awards for accomplishment, etc. 
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/8dadc70c-88b0-48db-bfab-cca05f14dd74)
+![Sketch 8](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/cdada563-8e72-4ac1-8372-f4952ad22a5f)
 
 Guilds should issue participation certificates that include the following:
 * Type of participation (member / senior member / manager / etc.)
@@ -709,7 +709,7 @@ Guilds should issue participation certificates that include the following:
   
 Participation certificates can serve as a way for DAO members to create a “resumé” of their experience with proof of participation under any guild they belong to.
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/23546cb4-4501-459f-95e2-9ac244b3e531)
+![Sketch 9](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/f8f3c9a1-410d-4c55-ae55-8a91832ee604)
 
 Guilds can submit a table describing their certificates and their meanings to the DAO Reputation Engine, or make it public to all. Using the certificate table, the tomiDAO, other guilds, and other ecosystems can interpret the participation level and quality of all members of the tomi Guilds system. Because of the complexity of reputation interpretation, it is recommended that Guilds limit themselves to a few types of certificates. Too many certificate types will make it difficult to interpret for outsiders (which is the whole purpose of the certificates). While the system will not limit the number of certificates, the interpretation engines initially will be limited in their capabilities. It is expected that AI will be able to be implemented to interpret reputation and certificates, but it is unlikely to happen within the first 2 years of the system’s implementation. 
 
