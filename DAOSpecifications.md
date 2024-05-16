@@ -241,7 +241,7 @@ Overview
 The tomi DAO has multiple functionalities. The top-level DAO is responsible for top-level requirements across all sub-DAOs. The main DAO provides overall strategy setting, calls for proposals, finance and budgeting, membership, and credential issuance.
 
 <div style="border: 2px solid black; display: inline-block;">
-    <img src="https://raw.githubusercontent.com/GraceRachmany/tomiDAO-specifications/main/assets/46278307/e161ad09-508e-4d8f-be66-af11c0261898" alt="Your Image">
+    <img src="[DIRECT_IMAGE_URL_HERE](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/e161ad09-508e-4d8f-be66-af11c0261898)" alt="Your Image">
 </div>
 
 
