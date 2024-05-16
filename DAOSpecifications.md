@@ -256,7 +256,7 @@ The strategy meetings will include representative participants from the followin
 * tomi community members, including tomiArmy and tDNS domain holders 
 * projects under the tomi umbrella (tomiChain, Gems, etc.)
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/7ece7289-0974-46eb-861c-2920beadb577)
+![Sketch 2](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/eabc6b93-a650-4fa8-b760-521313356039)
 
 Each of the above entities will have decision-making power in the strategy discussions. Rather than individuals having power, each of the entities above will have equal decision-making power in prioritizing the strategy if there is a vote or proposal that needs to be passed by consensus. Each of the 6 entities can have their own internal decision-making process which is not dictated by the DAO. For example, the tomi team may be governed by a CEO or executive team, whereas the tomi Pioneers may use voting to determine their stand or to elect a representative.
 
@@ -264,7 +264,7 @@ Strategy discussions should start online and then be completed in an in-person f
 
 The suggested process for strategy discussions: 
 
-![Workflow 1](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/04f1ad69-47d2-4c7d-a704-c94393c0faf1)
+![Sketch 3](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/b92b6b3f-0507-46f8-8375-cb00b11d171b)
 
 ## Finance and budgeting
 
@@ -329,7 +329,7 @@ Additional requirements are described in the sections below:
 Many of the functionalities required by the tomiDAO over time will require stewards and/or committees either for the purpose of temporary management of a new functionality, or as part of the needs of the DAO. For example, budgetary oversight might always be done by a committee, but if the DAO decides on an automated jury-based content management scheme, it might require a temporary group of stewards for the first 6 months until the automation is fully functioning and tested to work.
 Note: The platform Guild.xyz can be used to maintain the groups. Using guild.xyz will ease the ability of the tomiDAO to manage the groups and sub-groups operating as councils. Stewardship elections could be done through something like tally or jokerace so that tomi does not need to develop proprietary technology for everything.
 
-![Workflow 2](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/b5abea16-fb02-4ef5-9918-0ca250cb20e0)
+![Sketch 4](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/8d2c9056-128e-4854-a6ed-47a9db08ac6b)
 
 The following table describes the general election process for the creation of a stewardship council. Details on each step are described in the following sections of this document.
 
@@ -560,7 +560,7 @@ Within Web3, separation of issuance and interpretation is demonstrated by the Gi
 
 In all of these systems, one of the main shortcomings is how to manage undesirable behavior in DAOs. tomi has taken into consideration the problems of people who win DAO contracts and do not deliver, or who apply for multiple DAO contracts for the same work, getting paid multiple times for the same work. Similarly, a DAO might want to identify people who make a lot of noise in the community channels but don’t really contribute any useful information or useful work.
 
-![Sketch 2](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/ad635a37-dd83-4702-a0e7-5ccbb296c6de)
+![Sketch 5](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/45e43ca2-6a7e-4547-82b2-562d047f11c8)
 
 Following these models and considerations, tomi is creating a distributed identity and reputation tracking system  system that has several components:
 
