@@ -240,7 +240,9 @@ Overview
 
 The tomi DAO has multiple functionalities. The top-level DAO is responsible for top-level requirements across all sub-DAOs. The main DAO provides overall strategy setting, calls for proposals, finance and budgeting, membership, and credential issuance.
 
-<img src="https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/e161ad09-508e-4d8f-be66-af11c0261898" alt="Your Image" style="border: 1px solid black;">
+<div style="border: 2px solid black; display: inline-block;">
+    <img src="https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/e161ad09-508e-4d8f-be66-af11c0261898" alt="Your Image">
+</div>
 
 ## Strategy
 The tomiDAO Stewards will hold strategy meetings twice per year: June and January. The January strategy meeting will be in-person and funded by the DAO. Depending on the funding from the DAO, the tomiDAO stewards may opt to sponsor accommodations or travel. Sponsorship of participants should be used primarily in order to balance the representation of the different interest groups in the tomi ecosystem.
