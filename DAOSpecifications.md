@@ -785,13 +785,13 @@ Credentials are issued from the guilds, but a person must accept the credential 
 
 By default, credentials will not be held by the issuing guild or by tomi, nor will they be stored in the credentials issuing platform. When someone rejects or deletes a credential, it disappears forever. When someone accepts a credential it is stored in the person’s wallet and each person can determine how they want to back up the credentials. Tomi can serve as a credential storage if that is what the user wants, however the default is for the user to make their own choices in storing credentials. 
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/a5d420cb-ea4a-42f4-8547-3c37d9b14ca8)
+![Sketch 10](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/ead5d599-0ec2-48b6-88c5-4b7a49b38a89)
 
 The tomi Wallet will allow people to export credentials to a physical storage device, to store them in IPFS or in Google Drive as an encrypted file. Self-custodianship is key to creating a system that gives people full sovereignty over their reputation and credentials. Over time, other third parties may offer services to store credentials. This is not a base functionality of the system, but it is feasible to imagine a third-party business model in creating safe storage for people’s credentials. 
 
 IMPORTANT NOTE: Unlike blockchain-based NFTs, the credentials are OFF-CHAIN and cannot be restored in case of loss. The credentials are stored on the DEVICE where the person chooses to store them. In the case of loss or damage to the device, the person cannot restore the credentials if they do not specify more than one storage location.
 
-![image](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/3b871a69-9da1-4d92-9391-c9f0fb9d2329)
+![Sketch 11](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/9cb00ea5-82f9-489c-9e8f-bdf832d3592e)
 
 Once a credential is accepted to the wallet, it is stored in the wallet and disappears from the portal. The portal does not store credentials. Each issuer can decide whether to store the issued credentials, but the primary responsibility for storing credentials is with the recipient. The recipient can also permanently delete credentials. Tomi does not store credentials unless that service is requested by the user. The tomi wallet can be configured for local storage, storage on an external or cloud drive, or potentially on IPFS or other storage chosen for integration by the tomi team. 
 
