@@ -560,7 +560,7 @@ Within Web3, separation of issuance and interpretation is demonstrated by the Gi
 
 In all of these systems, one of the main shortcomings is how to manage undesirable behavior in DAOs. tomi has taken into consideration the problems of people who win DAO contracts and do not deliver, or who apply for multiple DAO contracts for the same work, getting paid multiple times for the same work. Similarly, a DAO might want to identify people who make a lot of noise in the community channels but don’t really contribute any useful information or useful work.
 
-![Sketch 5](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/45e43ca2-6a7e-4547-82b2-562d047f11c8)
+![Sketch 5](https://github.com/GraceRachmany/tomiDAO-specifications/assets/46278307/2f1c4de4-cd1b-4465-9ace-99a0ed8e47bd)
 
 Following these models and considerations, tomi is creating a distributed identity and reputation tracking system  system that has several components:
 
